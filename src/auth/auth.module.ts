@@ -15,7 +15,7 @@ export class AuthModule {
     consumer
   .apply(AuthMiddleware)
   .forRoutes({ path: '/auth/register', method: RequestMethod.POST }
-   
+   //este comentario es para probar el commit
   );
 }
 }
